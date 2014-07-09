@@ -41,7 +41,7 @@ a {
 a small {
   font-size:11px;
   color:#777;
-  margin-top:-0.6em;
+  margin-top:-0.2em;
   display:block;
 }
 
@@ -104,7 +104,8 @@ header {
 header ul {
   list-style:none;
   height:40px;
-  
+  text-align:center;
+  vertical-align:center;
   padding:0;
   
   background: #eee;
@@ -118,7 +119,7 @@ header ul {
   border-radius:5px;
   border:1px solid #d2d2d2;
   box-shadow:inset #fff 0 1px 0, inset rgba(0,0,0,0.03) 0 -1px 0;
-  width:270px;
+  width:180px;
 }
 
 header li {
@@ -132,7 +133,7 @@ header ul a {
   line-height:1;
   font-size:11px;
   color:#999;
-  display:block;
+  display:inline-block;
   text-align:center;
   padding-top:6px;
   height:40px;
@@ -163,6 +164,8 @@ section {
   width:500px;
   float:right;
   padding-bottom:50px;
+  text-align:justify;
+  text-justify:inter-word;
 }
 
 small {
@@ -217,6 +220,8 @@ footer {
     top:52px;
   }
 }
+
+
 
 @media print, screen and (max-width: 720px) {
   body {
