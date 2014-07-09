@@ -1,9 +1,10 @@
+
 <!doctype html>
 <html>
   <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="chrome=1">
-    <title>Dobsiss by zackbatist</title>
+    <title>DObsiSS by zackbatist</title>
 
     <link rel="stylesheet" href="stylesheets/styles.css">
     <link rel="stylesheet" href="stylesheets/pygment_trac.css">
@@ -15,7 +16,7 @@
   <body>
     <div class="wrapper">
       <header>
-        <h1>Dobsiss</h1>
+        <h1>DObsiSS</h1>
         <p>The Database of Obsidian Sourcing Studies</p>
 
         <p class="view"><a href="https://github.com/zackbatist/DObsiSS">View the Project on GitHub <small>zackbatist/DObsiSS</small></a></p>
@@ -23,42 +24,48 @@
 
         <ul>
           <li><a href="https://github.com/zackbatist/DObsiSS/zipball/master">Download <strong>ZIP File</strong></a></li>
-          <li><a href="https://github.com/zackbatist/DObsiSS/tarball/master">Download <strong>TAR Ball</strong></a></li>
           <li><a href="https://github.com/zackbatist/DObsiSS">View On <strong>GitHub</strong></a></li>
         </ul>
+
+
+<p class="view"><a href="#overview">Overview</p>
+<p class="view"><a href="#repository">The Repository</p>
+<p class="view"><a href="#obsidian-sources">Obsidian Sources</p>
+
+
       </header>
       <section>
-        <h3>
-<a name="welcome-to-github-pages" class="anchor" href="#welcome-to-github-pages"><span class="octicon octicon-link"></span></a>Welcome to GitHub Pages.</h3>
+<h2>
+<a name="overview" class="anchor" href="#overview"><span class="octicon octicon-link"></span></a>Overview</h2>
 
-<p>This automatic page generator is the easiest way to create beautiful pages for all of your projects. Author your page content here using GitHub Flavored Markdown, select a template crafted by a designer, and publish. After your page is generated, you can check out the new branch:</p>
+<p>The Database of Obsidian Sourcing Studies is a listing of chemically characterized archaeological obsidian, compiled from published journal articles, excavation reports, conference papers and other scholarly records. The database lists the amount of obsidian artefacts uncovered at sites in southwest Asia and Anatolia made from material derived from various volcanic sources based on geochemical analysis and comparison with geological samples. </p>
 
-<pre><code>$ cd your_repo_root/repo_name
-$ git fetch origin
-$ git checkout gh-pages
-</code></pre>
+<p>Bringing all of the data together, archaeologists can reconstruct patterns of human movement and interaction on broad geographic and temporal scales. Hopefully this dataset may be put to other good uses as well. DObsiSS is expandable and new sourcing data will be added as it is generated, and if anyone has any suggestions or modifications that they would like to propose, feel free to commit changes, fork the repository or contact me with any questions or concerns. </p>
 
-<p>If you're using the GitHub for Mac, simply sync your repository and you'll see the new branch.</p>
+<h2>
+<a name="repository" class="anchor" href="#repository"><span class="octicon octicon-link"></span></a>The Repository</h2>
 
-<h3>
-<a name="designer-templates" class="anchor" href="#designer-templates"><span class="octicon octicon-link"></span></a>Designer Templates</h3>
+<p>The primary version of the database is a geoJSON file with an added JSON-LD context, however all of the data is also available in CSV format. Another geoJSON file with the locations of the obsidian sources is also included. Moreover, a third JSON file lists the bibliographic information regarding the sources from which data was pulled. </p>
 
-<p>We've crafted some handsome templates for you to use. Go ahead and continue to layouts to browse through them. You can easily go back to edit your page before publishing. After publishing your page, you can revisit the page generator and switch to another theme. Your Page content will be preserved if it remained markdown format.</p>
+<p>This database is being actively maintained and new information is incorporated as it becomes available. However sourcing data that is pending publication is omitted until it is readily accessible. Feel free to ping me or commit any changes if you would like to include new data that has not yet been added, or if you would like to propose any modifications. </p>
 
-<h3>
-<a name="rather-drive-stick" class="anchor" href="#rather-drive-stick"><span class="octicon octicon-link"></span></a>Rather Drive Stick?</h3>
+<h2>Obsidian Sources</h2>
 
-<p>If you prefer to not use the automatic generator, push a branch named <code>gh-pages</code> to your repository to create a page manually. In addition to supporting regular HTML content, GitHub Pages support Jekyll, a simple, blog aware static site generator written by our own Tom Preston-Werner. Jekyll makes it easy to create site-wide headers and footers without having to copy them across every page. It also offers intelligent blog support and other advanced templating features.</p>
+<p>The obsidian sources listed in the database are defined according to the determinations drawn up by Poidevin (1998).<sup class="footnote-ref" id="fnref-1"><a href="#fn-1">1</a></sup> Their locations are listed in a geoJSON file that is included in the repository and mapped below. </p>
 
-<h3>
-<a name="authors-and-contributors" class="anchor" href="#authors-and-contributors"><span class="octicon octicon-link"></span></a>Authors and Contributors</h3>
+<p>While the present dataset only includes obsidian from southwest Asia and Anatolia, plenty of sourcing data has been generated pertaining to other regions as well. Due to the large amount of effort required for the compilation of this information, DObsiSS will remain focused on the area currently covered. </p>
 
-<p>You can <a href="https://github.com/blog/821" class="user-mention">@mention</a> a GitHub username to generate a link to their profile. The resulting <code>&lt;a&gt;</code> element will link to the contributor's GitHub Profile. For example: In 2007, Chris Wanstrath (<a href="https://github.com/defunkt" class="user-mention">@defunkt</a>), PJ Hyett (<a href="https://github.com/pjhyett" class="user-mention">@pjhyett</a>), and Tom Preston-Werner (<a href="https://github.com/mojombo" class="user-mention">@mojombo</a>) founded GitHub.</p>
+<script src="https://embed.github.com/view/geojson/zackbatist/DObsiSS/master/obsi_sources.geojson"></script>
 
-<h3>
-<a name="support-or-contact" class="anchor" href="#support-or-contact"><span class="octicon octicon-link"></span></a>Support or Contact</h3>
+<div class="footnotes">
+<hr />
+<ol>
+<li id="fn-1">
+<p><small>Poidevin, J.-L. 1998. <u>Les gisements d'obsidienne de Turquie et de Transcaucasie: géologie, géochemie et chronométrie.</u> In <em>L'obsidienne au Proche et Moyen Orient: Du volcan à l'outil</em>, M.-C. Cauvin, A. Gourgard, B. Gratuze, N. Arnaud, G. Poupeau, J.-L. Poidevin and C. Chataigner (eds.), BAR International Series 738, pp. 106-156. Oxford: Archaeopress.&nbsp;<a href="#fnref-1" class="footnoteBackLink">&#8617;</a></small></p>
+</li>
+</ol>
+</div>
 
-<p>Having trouble with Pages? Check out the documentation at <a href="http://help.github.com/pages">http://help.github.com/pages</a> or contact <a href="mailto:support@github.com">support@github.com</a> and we’ll help you sort it out.</p>
       </section>
       <footer>
         <p>This project is maintained by <a href="https://github.com/zackbatist">zackbatist</a></p>
@@ -66,16 +73,6 @@ $ git checkout gh-pages
       </footer>
     </div>
     <script src="javascripts/scale.fix.js"></script>
-              <script type="text/javascript">
-            var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");
-            document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));
-          </script>
-          <script type="text/javascript">
-            try {
-              var pageTracker = _gat._getTracker("UA-49573911-1");
-            pageTracker._trackPageview();
-            } catch(err) {}
-          </script>
-
+    
   </body>
 </html>
