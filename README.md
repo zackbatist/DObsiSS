@@ -1,8 +1,6 @@
 DObsiSS
 =======
 
-The Database of Obsidian Sourcing Studies
-
 The Database of Obsidian Sourcing Studies is a listing of chemically characterized archaeological obsidian, compiled from published journal articles, excavation reports, conference papers and other scholarly records. The database lists the amount of obsidian artefacts uncovered at sites in southwest Asia and Anatolia made from material derived from various volcanic sources based on geochemical analysis and comparison with geological samples.
 
 Bringing all of the data together, archaeologists can reconstruct patterns of human movement and interaction on broad geographic and temporal scales. Hopefully this dataset may be put to other good uses as well. DObsiSS is expandable and new sourcing data will be added as it is generated; if anyone has any suggestions or modifications that they would like to propose, feel free to commit changes, fork the repository or contact me with any questions or concerns.
