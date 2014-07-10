@@ -9,7 +9,7 @@ body {
 
 h1, h2, h3, h4, h5, h6 {
   color:#222;
-  margin:0 0 20px;
+  margin:0 0 10px;
 }
 
 p, ul, ol, table, pre, dl {
@@ -136,6 +136,7 @@ header ul a {
   display:inline-block;
   text-align:center;
   padding-top:6px;
+  padding-bottom:4px;
   height:40px;
 }
 
@@ -186,6 +187,10 @@ footer {
   bottom:50px;
 }
 
+ .view {
+    margin:2px 0 0 0;
+  }
+
 @media print, screen and (max-width: 960px) {
   
   div.wrapper {
@@ -220,7 +225,6 @@ footer {
     top:52px;
   }
 }
-
 
 
 @media print, screen and (max-width: 720px) {
