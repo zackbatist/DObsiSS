@@ -1,14 +1,20 @@
 {
 "@context": {
+  "dcterms":"http://purl.org/dc/terms/",
+  "gn": "http://www.geonames.org/ontology#",
+  "prov":"http://www.w3.org/ns/prov#",
   "rdfs":"http://www.w3.org/2000/01/rdf-schema#",
+  "xsd":"http://www.w3.org/2001/XMLSchema#",
+
   "Feature": {"@id": "http://geovocab.org/spatial#Feature"},
   "FeatureCollection": {"@id": "http://example.org/vocab#FeatureCollection"},
   "Point": {"@id": "http://geovocab.org/geometry#Point"},
+
   "coordinates":{ "@id":"http://www.w3.org/1999/02/22-rdf-syntax-ns#value", "@container":"@list" },
-  "features":{"@id:"http://geovocab.org/spatial.html#Feature"},
+  "features":"@graph",
   "geometry":{"@id":"http://geovocab.org/geometry#geometry"},
-  "properties":{ "@id":"rdfs:isDefinedBy" },
   "id":"@id",
+  "properties":{ "@id":"rdfs:isDefinedBy" },
   "type":"@type",
 
   "note": {"@id": "http://www.w3.org/2004/02/skos/core#note"},
@@ -35,7 +41,7 @@
 
   "obsi_sources": {
     "label": "Obsidian Sources",
-    "@id": "http://zackbatist.github.io/DObsiSS#sources",
+    "@id": "http://zackbatist.github.io/DObsiSS/sources",
 	"sources": [
 	  {
 	    "name":"Agicöl",
@@ -11102,4 +11108,3 @@
     }
   ]
 }
-
