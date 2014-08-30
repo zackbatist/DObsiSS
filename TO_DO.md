@@ -8,6 +8,7 @@ This is a list of changes and improvements that I hope to make in the future.
 - [ ] DObsiSS.geojson
   - [ ] Re-order fields
   - [ ] Remove json-ld info from top
+  - [ ] Add bounding box and CRS info to FeatureCollection key
 
 - [ ] DObsiSS.csv
   - [ ] Re-order fields
