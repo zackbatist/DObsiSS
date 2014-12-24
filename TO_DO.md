@@ -6,12 +6,12 @@ DObsiSS
 This is a list of changes and improvements that I hope to make in the future. 
 
 - **DObsiSS.geojson**
-  - [ ] Re-order fields
+  - [x] Re-order fields
   - [x] Remove json-ld info from top
   - [x] Add bounding box and CRS info to FeatureCollection key
 
 - **DObsiSS.csv**
-  - [ ] Re-order fields
+  - [x] Re-order fields
 
 - **DObsiSS.jsonld**
   - [x] Separate info from geojson
@@ -20,7 +20,7 @@ This is a list of changes and improvements that I hope to make in the future.
   - [ ] Look into the possibility of creating a new schema altogether, which can be displayed on another page [*]
 
 - **Sources sub-directory**
-  - [ ] csv and geojson, with the same info in each
+  - [x] csv and geojson, with the same info in each
   - [ ] Possibly an independent json-ld base index for sources
   - [ ] Display links to info, chemical breakdowns and other resources for each entry on a new front-end page [*]
 
