@@ -8951,6 +8951,64 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
+          43.883674,
+          35.999085
+        ]
+      },
+      "properties": {
+        "Site ID": "6_12”,
+        "Site": "Surezha",
+        "Period": "6",
+        "Country": “Iraq”,
+        "Region": “Jezireh”,
+        "Context": “Chalcolithic”,
+        "Notes": "",
+        "Citations": "Stein and Alizadeh 2014",
+        "Chemical Characterization": "Stein and Alizadeh 2014",
+        "Laboratory": "CNRS (Orléans)",
+        "Analytical Methods": "LA-HR-ICP-MS",
+        "Obsidian analyzed": “25”,
+        "Agicol": "0",
+        "Gollu Dag East": "0",
+        "Gollu Dag West": "0",
+        "Nenezi Dag": "0",
+        "Hasan Dag": "0",
+        "Erciyes Dag": "0",
+        "Erzincan": "0",
+        "Erzerum": "0",
+        "Pasinler": "0",
+        "Sarikamis": “2”,
+        "Kars-Kagisman": "0",
+        "Ikizdere": "0",
+        "Bingol B": "0",
+        "Nemrut Dag / Bingol A": “16”,
+        "Meydan Dag": “6”,
+        "Tendurek Dag": "0",
+        "Suphan Dag": "0",
+        "Mus": "0",
+        "Kechut": "0",
+        "Aragats / Arteni": "0",
+        "Gegham": "0",
+        "Vardenis / Khorapor": "0",
+        "Sjunik": "0",
+        "Baksan": "0",
+        "Gutanasar": "0",
+        "Kojun Dag / Chikiani": "0",
+        "Hatis": "0",
+        "West Anatolia": "0",
+        "Demenegaki": "0",
+        "Sta Nychia": "0",
+        "Giali": "0",
+        "3d high in rubidium": “1”,
+        "1e-f": "0",
+        "Unknown": "0"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
           38.36119,
           38.382023
         ]
