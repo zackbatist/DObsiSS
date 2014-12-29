@@ -1,0 +1,86 @@
+<!doctype html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="chrome=1">
+    <title>A simple guide to git</title>
+
+    <link rel="stylesheet" href="stylesheets/styles.css">
+    <link rel="stylesheet" href="stylesheets/pygment_trac.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
+    <!--[if lt IE 9]>
+    <script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+    <![endif]-->
+    <link rel="icon" type="image/x-icon" href="favicon.ico" />
+    <link rel="shortcut icon" type="image/x-icon" href="favicon.ico" />
+
+    <script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+  ga('create', 'UA-49573911-1', 'auto');
+  ga('send', 'pageview');
+</script>
+
+  </head>
+  <body>
+    <div class="wrapper">
+      <header>
+        <a href="https://zackbatist.github.io/DObsiSS/"><h1>DObsiSS</h1></a>
+        <p>The Database of Obsidian Sourcing Studies</p>
+
+        <p class="view"><a href="https://github.com/zackbatist/DObsiSS">View the Project on GitHub <small>zackbatist/DObsiSS</small></a></p>
+
+
+        <ul>
+          <li><a href="https://github.com/zackbatist/DObsiSS/zipball/master">Download <strong>ZIP File</strong></a></li>
+          <li><a href="https://github.com/zackbatist/DObsiSS">View On <strong>GitHub</strong></a></li>
+        </ul>
+
+
+<h2 class="view">
+<a name="contact" class="anchor" href="#contact"><span class="octicon octicon-link"></span></a>Contact Info</h2>
+        <p class="view">This project is maintained by Zack Batist</p>
+	<p class="view">Twitter: <a href="https://twitter.com/mtl_zack">@mtl_zack</a>
+	<p class="view">Github: <a href="https://github.com/zackbatist">zackbatist</a>
+	<p class="view">Homepage: <a href="http://zackbatist.ca">zackbatist.ca</a>
+        </br>
+	<p class="view"><a rel="license" href="http://creativecommons.org/licenses/by-sa/4.0/"><img alt="Creative Commons License" style="border-width:0" src="https://i.creativecommons.org/l/by-sa/4.0/88x31.png" /></a><br /><span xmlns:dct="http://purl.org/dc/terms/" href="http://purl.org/dc/dcmitype/Dataset" property="dct:title" rel="dct:type">DObsiSS</span> is licensed under a <a rel="license" href="http://creativecommons.org/licenses/by-sa/4.0/">Creative Commons Attribution-ShareAlike 4.0 International License</a>
+	<p class="view"><small>Hosted on GitHub Pages &mdash; Theme by <a href="https://github.com/orderedlist">orderedlist</a></small></p>
+
+      </header>
+      <section>
+<h2>
+<a name="guide" class="anchor" href="#guide"><span class="octicon octicon-link"></span></a>A simple guide to git</h2>
+
+<p>This guide is meant to help familiarize users with the git protocol so that people with little or no prior background using version control systems may contribute to DObsiSS with ease. Here I will explain how to use the free GitHub for Mac client, which offers a great front end that simplifies certain procedures. There is also a client available for Windows, whose functionality and design is roughly equivalent as the one made for Apple OS X. An introduction for terminal/command line interface is in the works, but check out these <a href="http://rogerdudler.github.io/git-guide/">other</a> <a href="http://git-scm.com/doc">helpful</a> <a href="https://guides.github.com/introduction/flow/">resources</a> in the mean time.</p>
+
+<h5>Before jumping to a step-by-step guide [coming very soon!], consider reading this brief overview that explains the overall functionality of git and GitHub in a rather clear and understandable way:</h5>
+
+<p>Git is a version control protocol that allows people to modify or contribute to open source or open access projects in a non-intrusive and organized manner. GitHub is one particular service for git users that provides free hosting for smaller projects, and offers the most effective and streamlined collaborative environment for such work. Git is analogous to a common language that GitHub and other independent servers or centralized services are based upon and communicate through.</p>
+
+<p>Git operates through a branching mechanism that allows users to <b>fork</b> already existing repositories as duplicates, which can then be modified as they see fit. A fork is considered to be <b>downstream</b> relative to the repository that is is based upon, which is complementarily <b>upstream</b> relative to the fork. Each fork is a repository in its own right, and may thus be further expanded upon by other users. In sum, forking allows a user to create their own copy of the original repository (hosted on GitHub), while also establishing a direct connection between them.</p>
+
+<p>In order to modify the contents of a repository, one must download or <b>clone</b> the contents of their fork from GitHub (the remote server) to their local machine. Cloning not only involves copying all of the repositories' contents, but also configuring the local directory in which they are held to track any changes that a user makes. Any modifications that are made to files contained in this tracked directory are referred to as <b>diffs</b>, and are either defined by the addition or removal of information.</p>
+
+<p>When a set of changes are made, the contributor must <b>commit</b> them along with a brief note. A commit is essentially a group of diffs amounting to one substantial modification. In a collaborative environment, commits amount to individual contributions. Once one or more commits are made, a user may want to <b>push</b> them to their repository on the remote GitHub server so that others may view them. Optionally, one can set up and push to multiple <b>branches</b> of their repository, which are independent and parallel copies. Maintaining various branches allows one to work on different aspects of a project independent of each other. For example, one branch could be used simply for regularly adding records to the dataset, and another could constitute changes amounting to a larger overhaul to the contents of the repository.</p>
+
+<p>After a user has pushed changes to their repository, they can submit a <b>pull request</b> in order to compare the contents of their repository to the one that is is forked from located upstream. All differences are highlighted, and anyone can comment on specific changes or on the larger modifications as a whole. A dedicated URL is generated, and can be shared with colleagues who have not contributed data but still wish to participate in discussion. After reviewing the modifications and considering any raised issues, if DObsiSS moderators are content with changes they can <b>merge</b> the pull request into the main repository. If the modifications are inadequate, the pull request may be closed or left open indefinitely for further discussion.</p>
+
+<h4><u>Things to consider:</u></h4>
+<ul>
+<li>It is important to keep forks and branches up to date by fetching from upstream. Otherwise, merging pull requests can become slightly difficult to manage.</li>
+<li>Commit notes should be brief descriptions of the modifications. These are publicly visible in on your GitHub profile, and in pull request comment pages.</li>
+<li>GitHub is primarily meant for software development and collaboration, but is highly versatile and suits many different functions including <a href="http://blog.okfn.org/2013/07/02/git-and-github-for-data/"> dataset management</a>, <a href="http://notebook.madsenlab.org/labnotebook.html">the construction of open notebooks</a>, and <a href="https://github.com/showcases/writing">academic or creative writing</a>. It may seem a bit complex, but as long as you read between the lines and understand how your actions fit in with the larger functionality that git provides, things will click together.</li>
+</ul>
+
+
+      </section>
+      <footer>
+      </footer>
+    </div>
+    <script src="javascripts/scale.fix.js"></script>
+
+  </body>
+</html>
