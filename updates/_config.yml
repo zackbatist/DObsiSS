@@ -12,16 +12,16 @@ author_email: you@example.com
 
 # The directory for category index pages. Change it to something else if
 # for example you want links like /categories/category1 instead of /category1
-category_dir: /
+# category_dir: /
 
 # Uncomment if you are planning to run the blog in a subdirectory
 # Note - if you enable this, and attempt to view your site locally you have to use the baseurl in your local path.
 # Example, you must use http://localhost:4000/path/to/blog
 #baseurl: /path/to/blog
-baseurl:
+baseurl:/updates
 
 # The URL of your actual domain. This will be used to make absolute links in the RSS feed.
-url: http://zackbatist.github.io/DObsiSS/updates/
+url: http://zackbatist.github.io/DObsiSS/
 
 #### Under the Hood Stuff #####
 
