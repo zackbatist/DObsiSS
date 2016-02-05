@@ -3,7 +3,7 @@ DObsiSS
 
 The Database of Obsidian Sourcing Studies is a listing of chemically characterized archaeological obsidian, compiled from published journal articles, excavation reports, conference papers and other scholarly records. The database lists the amount of obsidian artefacts uncovered at sites in southwest Asia and Anatolia made from material derived from various volcanic sources based on geochemical analysis and comparison with geological samples.
 
-**Important update: I am currently updating DObsiSS to better suit the chronology employed in the Atlas des Sites du Proche-Orient (Hours et al 1994). Thus far around half of the records have been updated, specifically those pertaining to the western half of the region covered by DObsiSS. Please use `DObsiSS2.0_west.csv` or `DObsiSS2.0_west.geojson` within the zip for the most up-to-date data.**
+**Important update: I am currently updating DObsiSS to better suit the chronology employed in the Atlas des Sites du Proche-Orient (Aurenche et al. 2001; Hours et al. 1994). Thus far around half of the records have been updated, specifically those pertaining to the western half of the region covered by DObsiSS. Please use `DObsiSS_ASPRO_west.csv` or `DObsiSS_ASPRO_west.geojson` within the zip for the most up-to-date data.**
 
 Bringing all of the data together, archaeologists can reconstruct patterns of human movement and interaction on broad geographic and temporal scales. Hopefully this dataset may be put to other good uses as well. DObsiSS is expandable and new sourcing data will be added as it is generated; if anyone has any suggestions or modifications that they would like to propose, feel free to commit changes, fork the repository or contact me with any questions or concerns.
 
