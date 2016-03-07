@@ -15,17 +15,16 @@ This is a list of changes and improvements that I hope to make in the future.
 
 - **DObsiSS.jsonld**
   - [x] Separate info from geojson
-  - [ ] Verify whether the schemas at the very top are necessary to include. Are they references to base indexes?
   - [ ] Research schema definitions for current blank entries
-  - [ ] Look into the possibility of creating a new schema altogether, which can be displayed on another page [*]
+  - [x] Look into the possibility of creating a new schema altogether, which can be displayed on another page [*]
 
 - **Sources sub-directory**
   - [x] csv and geojson, with the same info in each
-  - [ ] Possibly an independent json-ld base index for sources
+  - [x] Possibly an independent json-ld base index for sources
   - [ ] Display links to info, chemical breakdowns and other resources for each entry on a new front-end page [*]
 
 - **Bibliography**
-  - [ ] Verify template, look into standard schemes/markups (bibjson, zotero, bibtex, etc)
+  - [x] Verify template, look into standard schemes/markups (bibjson, zotero, bibtex, etc)
 
 - **Unpublished data**
   - [ ] Keep list of records 'on the radar' for upcoming release, and update 'notes' fields to reflect pending updates for applicable records already in the dataset
