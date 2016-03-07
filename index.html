@@ -33,12 +33,12 @@
         <a href="https://zackbatist.github.io/DObsiSS/"><h1>DObsiSS</h1></a>
         <p>The Database of Obsidian Sourcing Studies</p>
 
-        <p class="view"><a href="https://github.com/zackbatist/DObsiSS">View the Project on GitHub <small>zackbatist/DObsiSS</small></a></p>
+        <p class="view"><a class="view" href="https://github.com/zackbatist/DObsiSS">View the Project on GitHub <small>zackbatist/DObsiSS</small></a></p>
 
 
         <ul>
-          <li><a href="https://github.com/zackbatist/DObsiSS/zipball/master">Download <strong>ZIP File</strong></a></li>
-          <li><a href="https://github.com/zackbatist/DObsiSS">View On <strong>GitHub</strong></a></li>
+          <li><a class="view" href="https://github.com/zackbatist/DObsiSS/zipball/master">Download <strong>ZIP File</strong></a></li>
+          <li><a class="view" href="https://github.com/zackbatist/DObsiSS">View On <strong>GitHub</strong></a></li>
         </ul>
 
 
@@ -47,8 +47,8 @@
         <p class="view">This project is maintained by Zack Batist</p>
 	<p class="view">Twitter: <a href="https://twitter.com/mtl_zack">@mtl_zack</a>
 	<p class="view">Github: <a href="https://github.com/zackbatist">zackbatist</a>
-	<p class="view">Homepage: <a href="http://zackbatist.ca">zackbatist.ca</a>
-        </br>
+	<p class="view">Homepage: <a href="https://zackbatist.github.io">zackbatist.github.io</a>
+  </br></br>
 	<p class="view"><a rel="license" href="http://creativecommons.org/licenses/by-sa/4.0/"><img alt="Creative Commons License" style="border-width:0" src="https://i.creativecommons.org/l/by-sa/4.0/88x31.png" /></a><br /><span xmlns:dct="http://purl.org/dc/terms/" href="http://purl.org/dc/dcmitype/Dataset" property="dct:title" rel="dct:type">DObsiSS</span> is licensed under a <a rel="license" href="http://creativecommons.org/licenses/by-sa/4.0/">Creative Commons Attribution-ShareAlike 4.0 International License</a>
 	<p class="view"><small>Hosted on GitHub Pages &mdash; Theme by <a href="https://github.com/orderedlist">orderedlist</a></small></p>
 
@@ -61,21 +61,17 @@
 
 <p>Bringing all of the data together, archaeologists can reconstruct patterns of human movement and interaction on broad geographic and temporal scales. Hopefully this dataset may be put to other good uses as well. DObsiSS is expandable and new sourcing data will be added as it is generated; if anyone has any suggestions or modifications that they would like to propose, feel free to commit changes, fork the repository or contact me with any questions or concerns. </p>
 
-<p><b>Important update: I am currently updating DObsiSS to better suit the chronology employed in the Atlas des Sites du Proche-Orient (Aurenche et al. 2001; Hours et al. 1994)<sup class="footnote-ref" id="fnref-1"><a href="#fn-1">1,</a></sup><sup class="footnote-ref" id="fnref-2"><a href="#fn-2">2</a></sup>. Thus far around half of the records have been updated, specifically those pertaining to the western half of the region covered by DObsiSS. Please use <code>DObsiSS_ASPRO_west.csv</code> or <code>DObsiSS_ASPRO_west.geojson</code> within the zip for the most up-to-date data.</b></p>
-
 <h2>
 <a name="repository" class="anchor" href="#repository"><span class="octicon octicon-link"></span></a>The Repository</h2>
 
-<p>The database consists of multiple files that are organized in a purposeful way. CSV files hold tabular data and can be used for various statistical or relational analyses, among other functions. geoJSON files specify geographical elements of the dataset, and are easily imported into various GIS platforms. This file format is a fork of JSON, and is thus also very well suited for web-based visualizations. The JSON-LD files are used to integrate the dataset within a wider web of related information. Using Linked Open Data principles, each data field is explicitly associated with standard definitions or schemas, enabling others to determine whether the creators of different datasets share similar conceptions of the data they are tallying or recording.  </p>
+<p>The database consists of multiple files that are organized in a purposeful way. CSV files hold tabular data and can be used for various statistical or relational analyses, among other functions. geoJSON files specify geographical elements of the dataset, and are easily imported into various GIS platforms. This file format is a fork of JSON, and is thus also very well suited for web-based visualizations. The JSON-LD file is used to integrate the dataset within a wider network of related information. Using the Linked Open Data protocol, data fields are associated with explicitly defined schemas that are presented here or elsewhere on the web. Bibliographic data pertaining to the original publications from which obsidian sourcing data are derived are available in bibtex format, and a listing of geochemical groups and their associated volcanic sources are available as well.</p>
 
-<p>This database is being actively maintained and new information is incorporated as it becomes available. However sourcing data that is pending publication is omitted until it is readily accessible. Feel free to ping me or commit any changes if you would like to include new data that has not yet been added, or if you would like to propose any modifications. </p>
-
-<p>I have produced <a href="http://zackbatist.github.io/DObsiSS/simple-guide.html">a simple introduction to Git</a> that explains the overall functionality of the protocol that underlies DObsiSS. A more precise guide, including step-by-step instructions for contributing to the project, will be made available shortly.</p>
+<p>This database is being actively maintained and new information is incorporated as it becomes available. However, obsidian sourcing data that are pending publication are omitted until they are made publically accessible. Feel free to ping me or commit any changes if you would like to include new data that has not yet been added, or if you would like to propose any modifications. See my <a href="http://zackbatist.github.io/DObsiSS/simple-guide.html">simple introduction to git</a> or my <a href="https://www.academia.edu/10128503/The_Database_of_Obsidian_Sourcing_Studies_DObsiSS_">poster from the 2015 AIA Annual Meeting</a> for an overview of the platform upon which DObsiSS operates.</p>
 
 <h2>
 <a name="sources" class="anchor" href="#sources"><span class="octicon octicon-link"></span></a>Obsidian Sources</h2>
 
-<p>The obsidian sources listed in the database are defined according to the determinations drawn up by Poidevin (1998).<sup class="footnote-ref" id="fnref-3"><a href="#fn-3">3</a></sup> Their locations are listed in a geoJSON file that is included in the repository and mapped below. </p>
+<p>The obsidian sources listed in the database are defined according to the determinations drawn up by Poidevin (1998).<sup class="footnote-ref" id="fnref-1"><a href="#fn-1">1</a></sup> Their locations are listed in a geoJSON file that is included in the repository and mapped below. </p>
 
 <p>While the present dataset only includes obsidian from southwest Asia and Anatolia, plenty of sourcing data has been generated pertaining to other regions as well. Due to the large amount of effort required for the compilation of this information, DObsiSS will remain focused on the area currently covered. </p>
 
@@ -85,7 +81,7 @@
 <h2>
 <a name="chronology" class="anchor" href="#chronology"><span class="octicon octicon-link"></span></a>Chronology</h2>
 
-<p>[text about chronology]</p>
+<p>The chronological structure adopted here conforms to the widely used periodization employed in the Atlas des Sites du Proche-Orient (Aurenche et al. 2001; Hours et al. 1994)<sup class="footnote-ref" id="fnref-2"><a href="#fn-2">2,</a></sup><sup class="footnote-ref" id="fnref-3"><a href="#fn-3">3</a></sup>. See the following table for comparisons with regional chronological frameworks.</p>
 
 <img src="chronology.png" style="width:100%;height:100%">
 <a href="https://raw.githubusercontent.com/zackbatist/DObsiSS/gh-pages/chronology.png"><p><em>Click here for larger image</em></p></a>
@@ -94,13 +90,13 @@
 <hr />
 <ol>
 <li id="fn-1">
-<p><small>Aurenche, O., P. Galet, E. Régagnon-Caroline & J. Évin. 2001. <u>Proto-Neolithic and Neolithic Cultures in the Middle East - The Birth of Agriculture, Livestock Raising, and Ceramics: A Calibrated C14 Chronology 12,500-5500 cal BC.</u><em> Radiocarbon</em> 43(3):1191-1202.&nbsp;<a href="#fnref-1" class="footnoteBackLink">&#8617;</a></small></p>
+<p><small>Poidevin, J.-L. 1998. <u>Les gisements d'obsidienne de Turquie et de Transcaucasie: géologie, géochemie et chronométrie.</u> In <em>L'obsidienne au Proche et Moyen Orient: Du volcan à l'outil</em>, M.-C. Cauvin, A. Gourgard, B. Gratuze, N. Arnaud, G. Poupeau, J.-L. Poidevin and C. Chataigner (eds.), BAR International Series 738, pp. 106-156. Oxford: Archaeopress.&nbsp;<a href="#fnref-1" class="footnoteBackLink">&#8617;</a></small></p>
 </li>
 <li id="fn-2">
-<p><small>Hours, F., O. Aurenche, J. Cauvin, M.-C. Cauvin, L. Copeland & P. Sanlaville. 1994. <u>Atlas des Sites du Proche Orient (14000-5700 BP).</u> Lyon: Maison de l'Orient Méditerranéan.&nbsp;<a href="#fnref-2" class="footnoteBackLink">&#8617;</a></small></p>
+<p><small>Aurenche, O., P. Galet, E. Régagnon-Caroline & J. Évin. 2001. <u>Proto-Neolithic and Neolithic Cultures in the Middle East - The Birth of Agriculture, Livestock Raising, and Ceramics: A Calibrated C14 Chronology 12,500-5500 cal BC.</u><em> Radiocarbon</em> 43(3):1191-1202.&nbsp;<a href="#fnref-2" class="footnoteBackLink">&#8617;</a></small></p>
 </li>
 <li id="fn-3">
-<p><small>Poidevin, J.-L. 1998. <u>Les gisements d'obsidienne de Turquie et de Transcaucasie: géologie, géochemie et chronométrie.</u> In <em>L'obsidienne au Proche et Moyen Orient: Du volcan à l'outil</em>, M.-C. Cauvin, A. Gourgard, B. Gratuze, N. Arnaud, G. Poupeau, J.-L. Poidevin and C. Chataigner (eds.), BAR International Series 738, pp. 106-156. Oxford: Archaeopress.&nbsp;<a href="#fnref-3" class="footnoteBackLink">&#8617;</a></small></p>
+<p><small>Hours, F., O. Aurenche, J. Cauvin, M.-C. Cauvin, L. Copeland & P. Sanlaville. 1994. <u>Atlas des Sites du Proche Orient (14000-5700 BP).</u> Lyon: Maison de l'Orient Méditerranéan.&nbsp;<a href="#fnref-3" class="footnoteBackLink">&#8617;</a></small></p>
 </li>
 </ol>
 </div>

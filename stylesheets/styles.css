@@ -40,6 +40,7 @@ a {
 
 a:hover {
   text-decoration:underline;
+  text-decoration-style:dotted;
 }
 
 a small {
@@ -192,7 +193,12 @@ footer {
 }
 
  .view {
-    margin:2px 0 0 0;
+  margin: 1px 0 0 0;
+  }
+
+  a.view {
+    text-decoration:none;
+    margin:0 0 2px 0;
   }
 
 @media print, screen and (max-width: 960px) {
@@ -242,6 +248,7 @@ footer {
 
   header ul, header p.view {
     position:static;
+    margin: 0 0 2px 0;
   }
 
   pre, code {
