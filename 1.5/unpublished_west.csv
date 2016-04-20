@@ -1,0 +1,21 @@
+Site ID,Site,ASPRO,Country,Region,Latitude,Longitude,Context,Notes,Citations,Chemical Characterization,Laboratory,Analytical Methods,Obsidian analyzed,Agicol,Gollu Dag East,Gollu Dag West,Nenezi Dag,Hasan Dag,Erciyes Dag,Erzincan,Erzerum,Pasinler,Sarikamis,Kars-Kagisman,Ikizdere,Bingol B,Nemrut Dag / Bingol A,Meydan Dag,Tendurek Dag,Suphan Dag,Mus,Kechut,Aragats / Arteni,Gegham,Vardenis / Khorapor,Sjunik,Baksan,Gutanasar,Kojun Dag / Chikiani,Hatis,West Anatolia,Demenegaki,Sta Nychia,Giali,3d high in rubidium,1e-f,Unknown
+
+1_1,Abu Hureyra,1,Syria,Middle Euphrate,35.86666667,38.38333,"AH1 A-B-C, Phases 1-3; Natoufien ; Zarzien final; tranchée E: Mesolithic",,"Moore, A.M.T. et al 2000; McDaniels, J.B. 1976; McDaniels J. et al. 1980","Carter, T. 2012",McMaster University,ED-XRF,7,0,3,0,0,0,0,0,0,0,0,0,0,3,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+
+2_1,Boncuklu,2,Turkey,Central Anatolia,37.751834,32.864846,,,"Baird, D. 2010; Carter, T. 2014 (Pers. comm.)","Carter, T. 2014 (Pers. comm)",McMaster University,ED-XRF,61,0,58,1,2,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+
+2_2,el Hemmeh,2,Jordan,Southern Levant,30.758,35.55,PPNA,"5 GDE communicated from T.C. initially, then 18 later on. ","Makarewicz, C. et al 2006; Carter, T. (pers. comm.); Contreras et al. 2012","Carter, T. (pers. comm.)",McMaster University,ED-XRF,18,0,18,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+
+3_1,Abu Hureyra,3,Syria,Middle Euphrate,35.86666667,38.38333,"AH2A, Phase 4; tranchées B, C, D, E: Early Aceramic = Neolithic 2",,"McDaniels, J. et al 1980; Moore, A.M.T. 1982; McDaniels, J.B. 1976; Carter, T. (pers. comm.)","Carter, T. (pers. comm.); McDaniels, J. et al 1980",McMaster University,NAA; XRF,47,0,11,0,0,0,0,0,0,0,0,0,0,6,30,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+
+4_1,Abu Hureyra,4,Syria,Middle Euphrate,35.86666667,38.38333,"AH2B, Phases 5, 6 and 7; Later Aceramic = Neolithic 2",,"Carter, T. (pers. comm.); McDaniels, J. et al 1980","Carter, T. (pers. comm.); McDaniels, J. et al 1980",McMaster University,ED-XRF; NAA,165,0,29,0,0,0,0,0,0,0,0,0,0,77,56,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,3,0,0
+
+4_7,Gurcutepe I,4,Turkey,Middle Euphrate,37.119772,38.845938,LPPNB,,"Schmidt, K. 1997; Schmidt, K. 1995; Carter, T. (pers. comm.)","Carter, T. (pers. comm.)",McMaster University,ED-XRF,34,0,6,0,1,0,0,0,0,0,0,0,0,12,15,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+
+5_1,Abu Hureyra,5,Syria,Middle Euphrate,35.86666667,38.38333,"AH2C, Phases 8, Ceramic Neolithic",,"Carter, T. (pers. comm.); McDaniels, J. et al 1980","Carter, T. (pers. comm.); McDaniels, J. et al 1980",McMaster University,ED-XRF; NAA,141,0,41,0,0,0,0,0,0,0,0,0,0,65,33,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,2,0,0
+
+6_16,Sha'ar Hagolan,6,Israel,Southern Levant,32.6865,35.603297,Yarmoukian,,"Carter et al, in press","Carter et al, in press",McMaster University,ED-XRF,34,0,15,0,17,0,0,0,0,0,0,0,0,0,2,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+
+6_19,Wisad Pools,6,Jordan,Southern Levant,31.968,38.05,"""earlier part of the ""late Neolithic""",,"Rollefson, G.O. et al 2011; Carter, T. 2014 (pers. comm.)","Carter, T. 2014 (pers. comm.)",McMaster University,ED-XRF,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+
+10_7,Marj Rabba,10,Israel,Central Levant,32.843557,35.281002,"Chalcolithic, 4500 - 3500 B.C.E.",,"Rowan, Y.M. and Kersel, M.M. 2013; Carter, T. 2014 (Pers. comm.)","Carter, T. 2014 (Pers. comm.)",McMaster University,ED-XRF,4,0,2,0,0,0,0,0,0,0,0,0,0,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
