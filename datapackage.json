@@ -1,0 +1,129 @@
+{
+  "name": "DObsiSS",
+  "datapackage_version": "1.0-beta",
+  "title": "DObsiSS: The Database of Obsidian Sourcing Studies",
+  "description": "The Database of Obsidian Sourcing Studies is a listing of chemically characterized archaeological obsidian, compiled from published journal articles, excavation reports, conference papers and other scholarly records. The database lists the amount of obsidian artefacts uncovered at sites in southwest Asia and Anatolia made from material derived from various volcanic sources based on geochemical analysis and comparison with geological samples.",
+  "version": "2.0",
+  "homepage": "https://zackbatist.github.io/DObsiSS/",
+  "keywords": ["obsidian", "geochemical characterization", "archaeometry"],
+  "licenses": [{
+    "url": "https://creativecommons.org/licenses/by-sa/4.0/",
+    "name": "Creative Commons Attribution-ShareAlike",
+    "version": "4.0",
+    "id": "CC BY-SA 4.0"
+  }],
+  "contributors": [{
+    "name": "Zack Batist",
+    "email": "z.batist@mail.utoronto.ca",
+    "web": "https://zackbatist.github.io/"
+  }],
+  "resources": [
+    {
+      "name": "DObsiSS-csv",
+      "path": "DObsiSS_2.0.csv",
+      "schema": {
+        "fields": [
+          {
+            "name": "Site ID",
+	    "type": "string"
+	  },
+	  {
+	    "name": "Site",
+	    "type": "string"
+	  },
+	  {
+	    "name": "ASPRO",
+	    "type": "string",
+	    "description": "Chronological period pertaining to each record. Chronology is based upon the Atlas des Sites du Proche Orient, derived by Hours et al. 1994."
+	  },
+	  {
+	    "name": "Country",
+	    "type": "string"
+	  },
+	  {
+	    "name": "Region",
+	    "type": "string"
+	  },
+	  {
+	    "name": "Latitude",
+	    "type": "string"
+	  },
+	  {
+	    "name": "Country",
+	    "type": "Longitude"
+	  },
+	  {
+	    "name": "Context",
+	    "type": "string",
+	    "description": "The cultural context pertaining to the analyzed finds, which has been generalized to conform to the supra-regional ASPRO chronology."
+	  },
+	  {
+	    "name": "Notes",
+	    "type": "string"
+	  },
+	  {
+	    "name": "Citations",
+	    "type": "string"
+	  },
+	  {
+	    "name": "Chemical Characterization",
+	    "type": "string"
+	  },
+	  {
+	    "name": "Laboratory",
+	    "type": "string"
+	  },
+	  {
+	    "name": "Analytical Method",
+	    "type": "string"
+	  },
+	  {
+	    "name": "Obsidian Analyzed",
+	    "type": "number"
+	  }
+        ]
+      }
+    },
+    {
+    "name": "Obsidian Sources",
+    "path": "sources/obsi_sources.csv",
+    "schema": {
+      "fields": [
+        {
+          "name": "Name",
+          "type": "string"
+        },
+        {
+          "name": "Number",
+          "type": "number"
+        },
+        {
+          "name": "Longitude",
+          "type": "string"
+        },
+        {
+          "name": "Latitude",
+          "type": "string"
+        },
+        {
+          "name": "Region",
+          "type": "string"
+        },
+        {
+          "name": "Citations",
+          "type": "string"
+        }
+      ]
+    }
+  }
+],
+  "schemas": [{
+    "chronological-schema": {
+    },
+    "spatial-schema": {
+      }
+  }]
+}
+
+
+
