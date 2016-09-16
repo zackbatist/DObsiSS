@@ -1,4 +1,5 @@
 DObsiSS
+[![DOI](https://zenodo.org/badge/doi/10.5281/zenodo.55848.svg)](http://dx.doi.org/10.5281/zenodo.55848)
 =======
 
 The Database of Obsidian Sourcing Studies is a listing of chemically characterized archaeological obsidian, compiled from published journal articles, excavation reports, conference papers and other scholarly records. The database lists the amount of obsidian artefacts uncovered at sites in southwest Asia and Anatolia made from material derived from various volcanic sources based on geochemical analysis and comparison with geological samples.
