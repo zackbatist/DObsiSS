@@ -49,8 +49,8 @@
 	    "type": "string"
 	  },
 	  {
-	    "name": "Country",
-	    "type": "Longitude"
+	    "name": "Longitude",
+	    "type": "string"
 	  },
 	  {
 	    "name": "Context",
