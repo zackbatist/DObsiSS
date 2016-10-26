@@ -46,11 +46,11 @@
 	  },
 	  {
 	    "name": "Latitude",
-	    "type": "string"
+	    "type": "number"
 	  },
 	  {
 	    "name": "Longitude",
-	    "type": "string"
+	    "type": "number"
 	  },
 	  {
 	    "name": "Context",
@@ -74,56 +74,183 @@
 	    "type": "string"
 	  },
 	  {
-	    "name": "Analytical Method",
+	    "name": "Analytical Methods",
 	    "type": "string"
 	  },
 	  {
 	    "name": "Obsidian Analyzed",
 	    "type": "number"
-	  }
+	  },
+          {
+            "name": "Agicol",
+            "type": "integer"
+          },
+          {
+            "name": "Gollu Dag East",
+            "type": "integer"
+          },
+          {
+            "name": "Gollu Dag West",
+            "type": "integer"
+          },
+          {
+            "name": "Nenezi Dag",
+            "type": "integer"
+          },
+          {
+            "name": "Hasan Dag",
+            "type": "integer"
+          },
+          {
+            "name": "Erciyes Dag",
+            "type": "integer"
+          },
+          {
+            "name": "Erzincan",
+            "type": "integer"
+          },
+          {
+            "name": "Erzerum",
+            "type": "integer"
+          },
+          {
+            "name": "Pasinler",
+            "type": "integer"
+          },
+          {
+            "name": "Sarikamis",
+            "type": "integer"
+          },
+          {
+            "name": "Kars-Kagisman",
+            "type": "integer"
+          },
+          {
+            "name": "Ikizdere",
+            "type": "integer"
+          },
+          {
+            "name": "Bingol B",
+            "type": "integer"
+          },
+          {
+            "name": "Nemrut Dag / Bingol A",
+            "type": "integer"
+          },
+          {
+            "name": "Meydan Dag",
+            "type": "integer"
+          },
+          {
+            "name": "Tendurek Dag",
+            "type": "integer"
+          },
+          {
+            "name": "Suphan Dag",
+            "type": "integer"
+          },
+          {
+            "name": "Mus",
+            "type": "integer"
+          },
+          {
+            "name": "Kechut",
+            "type": "integer"
+          },
+          {
+            "name": "Aragats / Arteni",
+            "type": "integer"
+          },
+          {
+            "name": "Gegham",
+            "type": "integer"
+          },
+          {
+            "name": "Vardenis / Khorapor",
+            "type": "integer"
+          },
+          {
+            "name": "Sjunik",
+            "type": "integer"
+          },
+          {
+            "name": "Baksan",
+            "type": "integer"
+          },
+          {
+            "name": "Gutanasar",
+            "type": "integer"
+          },
+          {
+            "name": "Kojun Dag / Chikiani",
+            "type": "integer"
+          },
+          {
+            "name": "Hatis",
+            "type": "integer"
+          },
+          {
+            "name": "West Anatolia",
+            "type": "integer"
+          },
+          {
+            "name": "Demenegaki",
+            "type": "integer"
+          },
+          {
+            "name": "Sta Nychia",
+            "type": "integer"
+          },
+          {
+            "name": "Giali",
+            "type": "integer"
+          },
+          {
+            "name": "3d high in rubidium",
+            "type": "integer"
+          },
+          {
+            "name": "1e-f",
+            "type": "integer"
+          },
+          {
+            "name": "Unknown",
+            "type": "integer"
+          }
         ]
       }
     },
     {
-    "name": "Obsidian Sources",
-    "path": "sources/obsi_sources.csv",
-    "schema": {
-      "fields": [
-        {
-          "name": "Name",
-          "type": "string"
-        },
-        {
-          "name": "Number",
-          "type": "number"
-        },
-        {
-          "name": "Longitude",
-          "type": "string"
-        },
-        {
-          "name": "Latitude",
-          "type": "string"
-        },
-        {
-          "name": "Region",
-          "type": "string"
-        },
-        {
-          "name": "Citations",
-          "type": "string"
-        }
-      ]
-    }
-  }
-],
-  "schemas": [{
-    "chronological-schema": {
-    },
-    "spatial-schema": {
+      "name": "Obsidian Sources",
+      "path": "sources/obsi_sources.csv",
+      "schema": {
+        "fields": [
+          {
+            "name": "Name",
+            "type": "string"
+          },
+          {
+            "name": "Number",
+            "type": "integer"
+          },
+          {
+            "name": "Longitude",
+            "type": "number"
+          },
+          {
+            "name": "Latitude",
+            "type": "number"
+          },
+          {
+            "name": "Region",
+            "type": "string"
+          },
+          {
+            "name": "Citations",
+            "type": "string"
+          }
+        ]
       }
-  }]
+    }
+  ]
 }
-
-
-
